@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="14" total="22" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-04T11:18:57Z" name="Suite" finished-at="2023-10-04T11:20:34Z" duration-ms="96636">
+    <groups>
+      <group name="invalid">
+        <method signature="VerifyBrocollisOnCart.AddBrocolli()[pri:1, instance:TestCases.VerifyBrocollisOnCart@5f577419]" name="AddBrocolli" class="TestCases.VerifyBrocollisOnCart"/>
+        <method signature="VerifyDryFruitOnCart.Dryfruits()[pri:2, instance:TestCases.VerifyDryFruitOnCart@28fa700e]" name="Dryfruits" class="TestCases.VerifyDryFruitOnCart"/>
+        <method signature="VerifyFruitsOnCart.AddFruits()[pri:3, instance:TestCases.VerifyFruitsOnCart@3d526ad9]" name="AddFruits" class="TestCases.VerifyFruitsOnCart"/>
+        <method signature="VerifyMuskMelonsOnCart.Add_MuskMelon()[pri:4, instance:TestCases.VerifyMuskMelonsOnCart@e041f0c]" name="Add_MuskMelon" class="TestCases.VerifyMuskMelonsOnCart"/>
+        <method signature="VerifyPlaceorder.ItemPrice()[pri:7, instance:TestCases.VerifyPlaceorder@3f3c966c]" name="ItemPrice" class="TestCases.VerifyPlaceorder"/>
+        <method signature="VerifyRemovePlaceOrder.Remove_From_ItemPrice()[pri:8, instance:TestCases.VerifyRemovePlaceOrder@11ee02f8]" name="Remove_From_ItemPrice" class="TestCases.VerifyRemovePlaceOrder"/>
+        <method signature="VerifyTomatosOnCart.add_Tomato()[pri:6, instance:TestCases.VerifyTomatosOnCart@11963225]" name="add_Tomato" class="TestCases.VerifyTomatosOnCart"/>
+        <method signature="VerifyWalnutOnCart.Add_Walnuts()[pri:5, instance:TestCases.VerifyWalnutOnCart@6a175569]" name="Add_Walnuts" class="TestCases.VerifyWalnutOnCart"/>
+      </group> <!-- invalid -->
+      <group name="sanity">
+        <method signature="VerifyBrocollisOnCart.AddBrocolli()[pri:1, instance:TestCases.VerifyBrocollisOnCart@5f577419]" name="AddBrocolli" class="TestCases.VerifyBrocollisOnCart"/>
+        <method signature="VerifyDryFruitOnCart.Dryfruits()[pri:2, instance:TestCases.VerifyDryFruitOnCart@28fa700e]" name="Dryfruits" class="TestCases.VerifyDryFruitOnCart"/>
+        <method signature="VerifyFruitsOnCart.AddFruits()[pri:3, instance:TestCases.VerifyFruitsOnCart@3d526ad9]" name="AddFruits" class="TestCases.VerifyFruitsOnCart"/>
+        <method signature="VerifyMuskMelonsOnCart.Add_MuskMelon()[pri:4, instance:TestCases.VerifyMuskMelonsOnCart@e041f0c]" name="Add_MuskMelon" class="TestCases.VerifyMuskMelonsOnCart"/>
+        <method signature="VerifyPlaceorder.ItemPrice()[pri:7, instance:TestCases.VerifyPlaceorder@3f3c966c]" name="ItemPrice" class="TestCases.VerifyPlaceorder"/>
+        <method signature="VerifyRemovePlaceOrder.Remove_From_ItemPrice()[pri:8, instance:TestCases.VerifyRemovePlaceOrder@11ee02f8]" name="Remove_From_ItemPrice" class="TestCases.VerifyRemovePlaceOrder"/>
+        <method signature="VerifyTomatosOnCart.add_Tomato()[pri:6, instance:TestCases.VerifyTomatosOnCart@11963225]" name="add_Tomato" class="TestCases.VerifyTomatosOnCart"/>
+        <method signature="VerifyWalnutOnCart.Add_Walnuts()[pri:5, instance:TestCases.VerifyWalnutOnCart@6a175569]" name="Add_Walnuts" class="TestCases.VerifyWalnutOnCart"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2023-10-04T11:18:57Z" name="Test" finished-at="2023-10-04T11:20:34Z" duration-ms="96636">
+      <class name="TestCases.VerifyBrocollisOnCart">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:TestCases.VerifyBrocollisOnCart@5f577419]" started-at="2023-10-04T11:18:57Z" name="setExtent" finished-at="2023-10-04T11:18:57Z" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="initializeWebDriver()[pri:0, instance:TestCases.VerifyBrocollisOnCart@5f577419]" started-at="2023-10-04T11:18:57Z" name="initializeWebDriver" finished-at="2023-10-04T11:18:59Z" duration-ms="1485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method is-config="true" signature="navigateSite()[pri:0, instance:TestCases.VerifyBrocollisOnCart@5f577419]" started-at="2023-10-04T11:18:59Z" name="navigateSite" finished-at="2023-10-04T11:19:02Z" duration-ms="3171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateSite -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:TestCases.VerifyBrocollisOnCart@5f577419]" started-at="2023-10-04T11:19:02Z" name="startTest" finished-at="2023-10-04T11:19:02Z" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.VerifyBrocollisOnCart.AddBrocolli() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="AddBrocolli()[pri:1, instance:TestCases.VerifyBrocollisOnCart@5f577419]" started-at="2023-10-04T11:19:02Z" name="AddBrocolli" finished-at="2023-10-04T11:19:03Z" duration-ms="1612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddBrocolli -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:TestCases.VerifyBrocollisOnCart@5f577419]" started-at="2023-10-04T11:19:03Z" name="resultTest" finished-at="2023-10-04T11:19:03Z" duration-ms="123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddBrocolli status=SUCCESS method=VerifyBrocollisOnCart.AddBrocolli()[pri:1, instance:TestCases.VerifyBrocollisOnCart@5f577419] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:TestCases.VerifyBrocollisOnCart@5f577419]" started-at="2023-10-04T11:20:34Z" name="endReport" finished-at="2023-10-04T11:20:34Z" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- TestCases.VerifyBrocollisOnCart -->
+      <class name="TestCases.VerifyMuskMelonsOnCart">
+        <test-method is-config="true" signature="initializeWebDriver()[pri:0, instance:TestCases.VerifyMuskMelonsOnCart@e041f0c]" started-at="2023-10-04T11:19:18Z" name="initializeWebDriver" finished-at="2023-10-04T11:19:20Z" duration-ms="1227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method is-config="true" signature="navigateSite()[pri:0, instance:TestCases.VerifyMuskMelonsOnCart@e041f0c]" started-at="2023-10-04T11:19:20Z" name="navigateSite" finished-at="2023-10-04T11:19:21Z" duration-ms="1004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateSite -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:TestCases.VerifyMuskMelonsOnCart@e041f0c]" started-at="2023-10-04T11:19:21Z" name="startTest" finished-at="2023-10-04T11:19:21Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.VerifyMuskMelonsOnCart.Add_MuskMelon() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="Add_MuskMelon()[pri:4, instance:TestCases.VerifyMuskMelonsOnCart@e041f0c]" started-at="2023-10-04T11:19:21Z" name="Add_MuskMelon" finished-at="2023-10-04T11:19:36Z" duration-ms="15602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_MuskMelon -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:TestCases.VerifyMuskMelonsOnCart@e041f0c]" started-at="2023-10-04T11:19:36Z" name="resultTest" finished-at="2023-10-04T11:19:36Z" duration-ms="232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Add_MuskMelon status=SUCCESS method=VerifyMuskMelonsOnCart.Add_MuskMelon()[pri:4, instance:TestCases.VerifyMuskMelonsOnCart@e041f0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+      </class> <!-- TestCases.VerifyMuskMelonsOnCart -->
+      <class name="TestCases.VerifyRemovePlaceOrder">
+        <test-method is-config="true" signature="initializeWebDriver()[pri:0, instance:TestCases.VerifyRemovePlaceOrder@11ee02f8]" started-at="2023-10-04T11:20:09Z" name="initializeWebDriver" finished-at="2023-10-04T11:20:10Z" duration-ms="1054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method is-config="true" signature="navigateSite()[pri:0, instance:TestCases.VerifyRemovePlaceOrder@11ee02f8]" started-at="2023-10-04T11:20:10Z" name="navigateSite" finished-at="2023-10-04T11:20:11Z" duration-ms="944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateSite -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:TestCases.VerifyRemovePlaceOrder@11ee02f8]" started-at="2023-10-04T11:20:11Z" name="startTest" finished-at="2023-10-04T11:20:11Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.VerifyRemovePlaceOrder.Remove_From_ItemPrice() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="Remove_From_ItemPrice()[pri:8, instance:TestCases.VerifyRemovePlaceOrder@11ee02f8]" started-at="2023-10-04T11:20:11Z" name="Remove_From_ItemPrice" finished-at="2023-10-04T11:20:34Z" duration-ms="22939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Remove_From_ItemPrice -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:TestCases.VerifyRemovePlaceOrder@11ee02f8]" started-at="2023-10-04T11:20:34Z" name="resultTest" finished-at="2023-10-04T11:20:34Z" duration-ms="153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Remove_From_ItemPrice status=SUCCESS method=VerifyRemovePlaceOrder.Remove_From_ItemPrice()[pri:8, instance:TestCases.VerifyRemovePlaceOrder@11ee02f8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+      </class> <!-- TestCases.VerifyRemovePlaceOrder -->
+      <class name="TestCases.VerifyDryFruitOnCart">
+        <test-method is-config="true" signature="initializeWebDriver()[pri:0, instance:TestCases.VerifyDryFruitOnCart@28fa700e]" started-at="2023-10-04T11:19:03Z" name="initializeWebDriver" finished-at="2023-10-04T11:19:05Z" duration-ms="1144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method is-config="true" signature="navigateSite()[pri:0, instance:TestCases.VerifyDryFruitOnCart@28fa700e]" started-at="2023-10-04T11:19:05Z" name="navigateSite" finished-at="2023-10-04T11:19:06Z" duration-ms="966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateSite -->
+        <test-method signature="Dryfruits()[pri:2, instance:TestCases.VerifyDryFruitOnCart@28fa700e]" started-at="2023-10-04T11:19:06Z" name="Dryfruits" finished-at="2023-10-04T11:19:10Z" duration-ms="4725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dryfruits -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:TestCases.VerifyDryFruitOnCart@28fa700e]" started-at="2023-10-04T11:19:06Z" name="startTest" finished-at="2023-10-04T11:19:06Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.VerifyDryFruitOnCart.Dryfruits() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:TestCases.VerifyDryFruitOnCart@28fa700e]" started-at="2023-10-04T11:19:10Z" name="resultTest" finished-at="2023-10-04T11:19:10Z" duration-ms="155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Dryfruits status=SUCCESS method=VerifyDryFruitOnCart.Dryfruits()[pri:2, instance:TestCases.VerifyDryFruitOnCart@28fa700e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+      </class> <!-- TestCases.VerifyDryFruitOnCart -->
+      <class name="TestCases.VerifyPlaceorder">
+        <test-method is-config="true" signature="initializeWebDriver()[pri:0, instance:TestCases.VerifyPlaceorder@3f3c966c]" started-at="2023-10-04T11:19:53Z" name="initializeWebDriver" finished-at="2023-10-04T11:19:54Z" duration-ms="1055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method is-config="true" signature="navigateSite()[pri:0, instance:TestCases.VerifyPlaceorder@3f3c966c]" started-at="2023-10-04T11:19:54Z" name="navigateSite" finished-at="2023-10-04T11:19:55Z" duration-ms="1015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateSite -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:TestCases.VerifyPlaceorder@3f3c966c]" started-at="2023-10-04T11:19:55Z" name="startTest" finished-at="2023-10-04T11:19:55Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.VerifyPlaceorder.ItemPrice() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="ItemPrice()[pri:7, instance:TestCases.VerifyPlaceorder@3f3c966c]" started-at="2023-10-04T11:19:55Z" name="ItemPrice" finished-at="2023-10-04T11:20:08Z" duration-ms="13145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ItemPrice -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:TestCases.VerifyPlaceorder@3f3c966c]" started-at="2023-10-04T11:20:08Z" name="resultTest" finished-at="2023-10-04T11:20:09Z" duration-ms="171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ItemPrice status=SUCCESS method=VerifyPlaceorder.ItemPrice()[pri:7, instance:TestCases.VerifyPlaceorder@3f3c966c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+      </class> <!-- TestCases.VerifyPlaceorder -->
+      <class name="TestCases.VerifyTomatosOnCart">
+        <test-method is-config="true" signature="initializeWebDriver()[pri:0, instance:TestCases.VerifyTomatosOnCart@11963225]" started-at="2023-10-04T11:19:43Z" name="initializeWebDriver" finished-at="2023-10-04T11:19:44Z" duration-ms="1175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method is-config="true" signature="navigateSite()[pri:0, instance:TestCases.VerifyTomatosOnCart@11963225]" started-at="2023-10-04T11:19:44Z" name="navigateSite" finished-at="2023-10-04T11:19:45Z" duration-ms="968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateSite -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:TestCases.VerifyTomatosOnCart@11963225]" started-at="2023-10-04T11:19:45Z" name="startTest" finished-at="2023-10-04T11:19:45Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.VerifyTomatosOnCart.add_Tomato() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="add_Tomato()[pri:6, instance:TestCases.VerifyTomatosOnCart@11963225]" started-at="2023-10-04T11:19:45Z" name="add_Tomato" finished-at="2023-10-04T11:19:53Z" duration-ms="8375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_Tomato -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:TestCases.VerifyTomatosOnCart@11963225]" started-at="2023-10-04T11:19:53Z" name="resultTest" finished-at="2023-10-04T11:19:53Z" duration-ms="171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=add_Tomato status=SUCCESS method=VerifyTomatosOnCart.add_Tomato()[pri:6, instance:TestCases.VerifyTomatosOnCart@11963225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+      </class> <!-- TestCases.VerifyTomatosOnCart -->
+      <class name="TestCases.VerifyFruitsOnCart">
+        <test-method is-config="true" signature="initializeWebDriver()[pri:0, instance:TestCases.VerifyFruitsOnCart@3d526ad9]" started-at="2023-10-04T11:19:10Z" name="initializeWebDriver" finished-at="2023-10-04T11:19:12Z" duration-ms="1089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method is-config="true" signature="navigateSite()[pri:0, instance:TestCases.VerifyFruitsOnCart@3d526ad9]" started-at="2023-10-04T11:19:12Z" name="navigateSite" finished-at="2023-10-04T11:19:13Z" duration-ms="1012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateSite -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:TestCases.VerifyFruitsOnCart@3d526ad9]" started-at="2023-10-04T11:19:13Z" name="startTest" finished-at="2023-10-04T11:19:13Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.VerifyFruitsOnCart.AddFruits() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="AddFruits()[pri:3, instance:TestCases.VerifyFruitsOnCart@3d526ad9]" started-at="2023-10-04T11:19:13Z" name="AddFruits" finished-at="2023-10-04T11:19:18Z" duration-ms="5607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddFruits -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:TestCases.VerifyFruitsOnCart@3d526ad9]" started-at="2023-10-04T11:19:18Z" name="resultTest" finished-at="2023-10-04T11:19:18Z" duration-ms="139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddFruits status=SUCCESS method=VerifyFruitsOnCart.AddFruits()[pri:3, instance:TestCases.VerifyFruitsOnCart@3d526ad9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+      </class> <!-- TestCases.VerifyFruitsOnCart -->
+      <class name="TestCases.VerifyWalnutOnCart">
+        <test-method is-config="true" signature="initializeWebDriver()[pri:0, instance:TestCases.VerifyWalnutOnCart@6a175569]" started-at="2023-10-04T11:19:36Z" name="initializeWebDriver" finished-at="2023-10-04T11:19:38Z" duration-ms="1170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method is-config="true" signature="navigateSite()[pri:0, instance:TestCases.VerifyWalnutOnCart@6a175569]" started-at="2023-10-04T11:19:38Z" name="navigateSite" finished-at="2023-10-04T11:19:40Z" duration-ms="2336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateSite -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:TestCases.VerifyWalnutOnCart@6a175569]" started-at="2023-10-04T11:19:40Z" name="startTest" finished-at="2023-10-04T11:19:40Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.VerifyWalnutOnCart.Add_Walnuts() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="Add_Walnuts()[pri:5, instance:TestCases.VerifyWalnutOnCart@6a175569]" started-at="2023-10-04T11:19:40Z" name="Add_Walnuts" finished-at="2023-10-04T11:19:42Z" duration-ms="2491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Walnuts -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:TestCases.VerifyWalnutOnCart@6a175569]" started-at="2023-10-04T11:19:42Z" name="resultTest" finished-at="2023-10-04T11:19:43Z" duration-ms="142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Add_Walnuts status=SUCCESS method=VerifyWalnutOnCart.Add_Walnuts()[pri:5, instance:TestCases.VerifyWalnutOnCart@6a175569] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+      </class> <!-- TestCases.VerifyWalnutOnCart -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

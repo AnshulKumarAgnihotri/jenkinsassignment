@@ -1,0 +1,8 @@
+TestCases\VerifyBrocollisOnCart.class
+TestCases\VerifyTomatosOnCart.class
+TestCases\VerifyPlaceorder.class
+TestCases\VerifyMuskMelonsOnCart.class
+TestCases\VerifyRemovePlaceOrder.class
+TestCases\VerifyWalnutOnCart.class
+TestCases\VerifyDryFruitOnCart.class
+TestCases\VerifyFruitsOnCart.class
