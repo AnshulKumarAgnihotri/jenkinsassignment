@@ -1,15 +1,20 @@
-node {
-    
-    stage('Checking Version') {
-        bat label:'',script:'java -version'
-    }
-    stage('Repo Cloning') {
-        git 'https://github.com/AnshulKumarAgnihotri/jenkinsassignment.git'
-    }
-    stage('Build') {
-        echo 'working properly'
-    }
-    stage('After running all test cases'){
-        echo 'Jenkins working properly'
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                //
+            }
+        }
+        stage('Test') {
+            steps {
+                //
+            }
+        }
+        stage('Deploy') {
+            steps {
+                //
+            }
+        }
     }
 }
