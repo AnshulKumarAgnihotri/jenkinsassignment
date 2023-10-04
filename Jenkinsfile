@@ -12,6 +12,5 @@ pipeline {
     stage('After running all test cases'){
         echo 'Jenkins working properly'
     }
-        }
-    }
+        
 }
