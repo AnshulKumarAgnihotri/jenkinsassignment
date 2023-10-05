@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Declarative: Post Actions') {
             steps {
-                echo 'Test..'
+                echo 'SUCCESS'
             }
         }
     }
