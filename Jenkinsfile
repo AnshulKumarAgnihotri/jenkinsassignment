@@ -17,7 +17,7 @@ pipeline {
                 echo 'Deploying....'
             }
         }
-        stage('fine') {
+        stage('Declarative: Post Actions') {
             steps {
                 echo 'Test..'
             }
